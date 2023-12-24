@@ -7,7 +7,7 @@
 }
 
 body{
-    background: lightblue;
+    background: pink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,35 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #fff;
+    background: green;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .top{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .top_left{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .top_right{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .top_bottom{
+    position: relative;
+    background: #003147;
+    padding: 40px;
 }
 
 .container .left_Side{
